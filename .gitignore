@@ -10,16 +10,3 @@ dist-ssr
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-	.browserslistrc
-	.eslintrc.json
-	.gitignore
-	.hintrc
-	.postcssrc
-	.prettierrc
-    .yarn/
-	.yarnrc.yml
-    	package.json
-	settings.json
-	src/
-	vite.config.js
-	yarn.lock

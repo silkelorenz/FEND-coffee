@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.hero-section {
+    height: 50vh;
+    width: 100%;
+    /*display: flex;*/
+    display: inline-block;
+    vertical-align: top;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    background-image: url('../images/CoffeeShop.png');
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   /* position: relative;*/
+}
+.h1 {
+    font-size: 64px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+.text-header {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+.header-button {
+    width: 160px;
+    background: #1A1A1A;
+    color: white;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.header-button:hover {
+    background: #3A3734;
+}
+.header-button:active {
+    background: #D7BE9D;
+}
+.hb-container {
+    position: absolute;
+    bottom: 60px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.icon-container {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+}
+.logo {
+    height: 35px;
+    width: 35px;
+    filter: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg) brightness(105%) contrast(108%);
+}
+.hamburger {
+    float: right;
+    filter: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg) brightness(105%) contrast(108%);
+    height: 25px;
+    width: 25px;
+    margin-top: 5px;
+}
+
+
+h2 {
+  font-size: var(--h2-font-size);
+  font-family: 'Roboto';
+  height: 21px;
+  left: 100px;
+  top: 268px;
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+  font-family: 'Roboto';
+  position: absolute;
+  width: 174px;
+  height: 21px;
+  left: 100px;
+  top: 268px;
+}
+
+h4 {
+  
+  font-family: 'Roboto';
+  height: 66px;
+  left: 100px;
+  top: 268px;
+  padding-left: 10%;
+  padding-top: 9%;
+  width: 100%;
+  margin: 10px;
+  text-align: left;
+margin-bottom: 2px;
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 37.5px;
+position: static;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.RöstereiundCafe {
+  
+  margin-top: auto;
+  height:auto;
+  margin-top: 50vh;
+  
+  width: 100%;
+  
+}
+
+
+
+
+.flex-container1 {
+  display: flex;
+  flex-direction:column;
+  font-size: 30px;
+  text-align: center;
+  
+
+}
+
+/*Rösterei & Cafe*/
+
+.flex-item1 {
+  
+padding-top: 10px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 34px;
+margin-top: 100px;
+margin-bottom: 30px;
+text-align: left;
+padding-left: 20px;
+
+
+
+}
+
+/*Kaffee aus Kiel*/
+
+.flex-item2 {
+  text-align: left;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  flex: 50%;
+  font-family: 'Roboto';
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+
+}
+
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  
+  
+}
+
+/*Kommt und besuchen*/
+
+.flex-item3 {
+
+  background-color: white;
+  padding: 10px;
+  flex: 50%;
+  font-family: 'Roboto';
+  margin: 2px;
+  margin-bottom: 40px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+}
+
+/*Öffnungszeiten*/
+
+.flex-item4 {
+  
+
+  background-color: white;
+  padding: 10px;
+  flex: 50%;
+  font-family: 'Roboto';
+  margin: 2px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+}
+
+.flex-container3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  text-align: center;
+  flex-wrap: wrap;
+  height: 30px;
+  width: 55px
+   
+}
+
+/*Bild Kaffemaschine*/
+
+.flex-item5 {
+    
+    max-width: 65%;
+    height: 3%;
+    padding-bottom: 40%;  
+    margin-left: 30%;
+ 
+
+ } 
+ 
+
+/*Frisches Gebäck*/
+
+.flex-item6 {
+  
+  padding: 10px;
+  flex: 100%;
+  font-family: 'Roboto';
+  width: 100%;
+  margin: 10px;
+  text-align: left;
+margin-bottom: 2px;
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 37.5px;
+font-display:initial;
+position: static;
+
+
+
+}
+
+/*Blindtext*/
+
+.flex-item7 {
+  
+  text-align:justify;
+  padding: 10px;
+  padding-right: 40px;
+  width: 100%;
+  margin: 10px;
+  text-align: left;
+  margin-top: 2px;
+  margin-right: 10px;
+
+  
+  font-family: 'Roboto';
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px
+
+
+}
+
+
+.row {
+    
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 8px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 8px;
+}
+.column img {
+  margin-top: 20px;
+  margin-right: 8px;
+  margin-left: 0px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.kommvorbei {
+
+  background-color: red;
+  font-size: 70pt;
+  display: block;
+
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns bis 991px */
+@media screen and (max-width: 991px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+
+/*
+
+// Small devices (landscape phones, 576px and up)
+
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// Very large desktop devices (1920px and up)
+@media (min-width: 1920px) { ... }
+
+
+ 
+
+
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}

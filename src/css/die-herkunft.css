@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.hero-section {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+   
+    background-image: url('../images/FEND-Coffee-beans-hand-2.png');
+
+
+    
+
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.icon-container {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+}
+.logo {
+    height: 35px;
+    width: 35px;
+    filter: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg) brightness(105%) contrast(108%);
+}
+.hamburger {
+    float: right;
+    filter: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg) brightness(105%) contrast(108%);
+    height: 25px;
+    width: 25px;
+    margin-top: 5px;
+}
+
+h1 {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+p{
+    margin: 10%;
+}
+
+/*video {
+    position:relative;
+    width: 100%;
+   top:1%;
+   left:7%
+   }
+   */
+
+   
+   video {
+    width: 100vw;
+    height: 56.25vw; /* 16:9-Verhältnis */
+  }
+  
+  @media screen and (min-width: 768px) {
+    video {
+      width: 50vw;
+      height: 28.125vw; /* 16:9-Verhältnis */
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    video {
+      width: 30vw;
+      height: 16.875vw; /* 16:9-Verhältnis */
+    }
+  }
+  
+
+  /* // Large devices (desktops, 992px and up)
+   @media (min-width: 992px) { 
+    
+    video {
+        position:relative;
+        top:1%;
+        left:7%
+
+    } }*/
+
+
+ 
+  
+  .flex-container-pic {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+    flex-wrap:nowrap;
+    height: 30px;
+    width: 55px
+     
+  }
+  
+  /*Bild Plant2*/
+  
+  .flex-item3 {
+      
+      max-width: 65%;    
+      padding-bottom: 10%;  
+      margin-left: 30%;
+   
+  
+   } 
+   
+    /*Bild Worker*/
+
+   .flex-item4 {
+      
+    max-width: 100%;
+   
+    padding-bottom: 10%;  
+    margin-right: 30%;
+    margin-left: 10%;
+ 
+
+ } 
+ 
