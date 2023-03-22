@@ -2,6 +2,7 @@ html, body {
     width: 100%;
     height: 100%;
     margin: 0vw; padding: 0vw;
+    background-color: black;
   }
 
   a {
@@ -16,12 +17,20 @@ text-decoration: none;
 
   h1 {
     margin: 0%;
+    color: white;
+    font-family: Roboto;
+    background-color: black;
+    
   }
   
 
   h3 {
     font-weight: 200;
     margin:0%;
+    font-family: Roboto;
+    color: white;
+    
+
     
 
   }
@@ -78,6 +87,21 @@ text-decoration: none;
       
     
     }
+
+
+    .Rustica { 
+        grid-area: Rustica; 
+        background-color: black;
+        font-family: Roboto, sans-serif;
+        color: white;
+        padding-left: 8vw;
+        padding-top: 8vw;
+        text-align: left;
+      
+    
+    }
+
+    
       
       .ImpressumDatenschutz {
          grid-area: ImpressumDatenschutz; 
@@ -121,6 +145,7 @@ text-decoration: none;
     text-align: left;
       }
       
+     
 
 
 
