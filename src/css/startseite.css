@@ -18,11 +18,12 @@
     background-repeat: no-repeat;
     position: relative;
   }
-  .Rustica {
+  .Rustica-head {
     font-size: 64px;
     font-weight: 900;
     text-align: center;
     color: white;
+
     
   }
   .text-header {
@@ -67,6 +68,10 @@
     padding-left: 24px;
     padding-right: 24px;
     box-sizing: border-box;
+    background-color: lime;
+
+  
+
   }
   .logo {
     height: 35px;
@@ -238,7 +243,7 @@
     max-width: 1440px;
   
     & div {
-      color: black;
+      
   
       @media (min-width: 768px) {
         color: var(--div-color);
@@ -260,6 +265,7 @@
     font-family: Roboto;
     padding-left: 17px;
     font-weight: bolder;
+    background-color: transparent;
     
   }
   
