@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.hero-section {
+.hero-section-kontakt {
     height: 25vh;
     width: 100%;
     display: flex;
@@ -19,13 +19,13 @@
 }
 
 
-.hb-container {
+.hb-container-kontakt {
     position: absolute;
     bottom: 60px;
     margin-left: 50%;
     transform: translate(-50%);
 }
-.icon-container {
+.icon-container-kontakt {
     width: 100%;
     position: absolute;
     top: 10px;
@@ -34,12 +34,12 @@
     box-sizing: border-box;
     background-color: white;
 }
-.logo {
+.logo-kontakt {
     height: 2.5vw;
     width: 2.5vw;
     color: black;
 }
-.hamburger {
+.hamburger-kontakt {
     float: right;
     height: 2vw;
     width: 2vw;
@@ -150,7 +150,7 @@ input[type=text], select {
     background-color: black;
   }
   
-  .Formular {
+  .Formular-kontakt {
     border-radius: 5px;
     background-color: white;
     padding: 20px;

@@ -37,7 +37,7 @@ text-decoration: none;
 
 
 
-    .container {  
+    .container-footer {  
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -51,7 +51,7 @@ text-decoration: none;
           text-align: center;
       }
     
-      .svg { 
+      .svg-footer { 
         
     grid-area: svg;
     background-color: black;
@@ -63,7 +63,7 @@ text-decoration: none;
    
  }
       
-      .footer-rustica { 
+      .footer-rustica-footer { 
         
     grid-area: Rustica;
     background-color: black;
@@ -76,7 +76,7 @@ text-decoration: none;
  
 }
       
-      .Weg { 
+      .Weg-footer { 
         grid-area: Weg; 
         background-color: black;
         font-family: Roboto, sans-serif;
@@ -89,7 +89,7 @@ text-decoration: none;
     }
 
 
-    .Rustica { 
+    .Rustica-footer { 
         grid-area: Rustica; 
         background-color: black;
         font-family: Roboto, sans-serif;
@@ -103,7 +103,7 @@ text-decoration: none;
 
     
       
-      .ImpressumDatenschutz {
+      .ImpressumDatenschutz-footer {
          grid-area: ImpressumDatenschutz; 
          background-color: black;
          font-family: Roboto, sans-serif;
@@ -113,18 +113,18 @@ text-decoration: none;
          
         }
       
-      .leer { 
+      .leer-footer { 
         grid-area: leer;
         background-color: black;
 }
       
-      .leer2 { 
+      .leer2-footer { 
         grid-area: leer2;
         background-color: black;
 
 }
       
-      .Oeffnungszeiten { 
+      .Oeffnungszeiten-footer { 
         grid-area: Oeffnungszeiten; 
         background-color: black;
     font-family: Roboto, sans-serif;
@@ -135,7 +135,7 @@ text-decoration: none;
     text-align: left;
 }
       
-      .Verlinkung { 
+      .Verlinkung-footer { 
         grid-area: Verlinkung;
         background-color: black;
     font-family: Roboto, sans-serif;

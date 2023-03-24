@@ -8,13 +8,13 @@
 
 
 
-.hb-container {
+.hb-container-impressum {
     position: absolute;
     bottom: 60px;
     margin-left: 50%;
     transform: translate(-50%);
 }
-.icon-container {
+.icon-container-impressum {
     width: 100%;
     position: absolute;
     top: 10px;
@@ -23,12 +23,12 @@
     box-sizing: border-box;
     background-color: white;
 }
-.logo {
+.logo-impressum {
     height: 9vw;
     width: 9vw;
     color: black;
 }
-.hamburger {
+.hamburger-impressum {
     float: right;
     height: 7vw;
     width: 7vw;

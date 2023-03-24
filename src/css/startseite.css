@@ -3,7 +3,7 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
   }
-  .hero-section1 {
+  .hero-section-startseite {
     height: 75vh;
     width: 100%;
     display: flex;
@@ -18,15 +18,14 @@
     background-repeat: no-repeat;
     position: relative;
   }
-  .Rustica-head {
+  .Rustica-head-startseite {
     font-size: 64px;
     font-weight: 900;
     text-align: center;
     color: white;
-
-    
+   
   }
-  .text-header {
+  .text-header-startseite {
     font-size: 18px;
     font-weight: 400;
     text-align: center;
@@ -34,7 +33,7 @@
     display: inline;
 
   }
-  .header-button {
+  .header-button-startseite {
     width: 250px;
     background: #1A1A1A;
     color: white;
@@ -49,36 +48,34 @@
     text-decoration: none;
 
   }
-  .header-button:hover {
+  .header-button-startseite:hover {
     background: #3A3734;
   }
-  .header-button:active {
+  .header-button-startseite:active {
     background: #D7BE9D;
   }
-  .hb-container {
+  .hb-container-startseite {
     position: absolute;
     bottom: 60px;
     margin-left: 50%;
     transform: translate(-50%);
   }
-  .icon-container {
+  .icon-container-startseite {
     width: 100%;
     position: absolute;
     top: 10px;
     padding-left: 24px;
     padding-right: 24px;
     box-sizing: border-box;
-    background-color: lime;
-
-  
+    background-color: transparent;
 
   }
-  .logo {
+  .logo-startseite {
     height: 35px;
     width: 35px;
     filter: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg) brightness(105%) contrast(108%);
   }
-  .hamburger {
+  .hamburger-startseite {
     float: right;
     filter: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg) brightness(105%) contrast(108%);
     height: 25px;
@@ -90,19 +87,15 @@
     box-sizing: border-box;
   }
   
-  .BioundFair {
+  .BioundFair-startseite {
    
     margin-top: auto;
     height:auto;
-    margin-top: 5vh;
-   
-    
- 
-    
+    margin-top: 5vh;    
   }
   
     
-  .flex-container1 {
+  .flex-container1-startseite {
     display: flex;
     flex-direction:column;
     font-size: 30px;
@@ -113,7 +106,7 @@
   
   /*Rösterei & Cafe*/
   
-  .flex-item1 {
+  .flex-item1-startseite {
     
   padding-top: 30px;
   font-family: 'Roboto';
@@ -127,12 +120,11 @@
   padding-left: 20px;
   
   
-  
   }
   
   /*Kaffee aus Kiel*/
   
-  .flex-item2 {
+  .flex-item2-startseite {
     text-align: left;
     background-color: white;
     padding: 10px;
@@ -147,7 +139,7 @@
   }
   
   
-  .flex-container2 {
+  .flex-container2-startseite {
     display: flex;
     flex-direction: row;
     font-size: 30px;
@@ -158,7 +150,7 @@
   
   /*Kommt und besuchen*/
   
-  .flex-item3 {
+  .flex-item3-startseite {
   
     background-color: white;
     padding: 10px;
@@ -166,31 +158,29 @@
     font-family: 'Roboto';
     margin: 2px;
     margin-bottom: 40px;
-  
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
   }
   
   /*Öffnungszeiten*/
   
-  .flex-item4 {
+  .flex-item4-startseite {
     
   
     background-color: white;
     padding: 10px;
     flex: 50%;
     font-family: 'Roboto';
-    margin: 2px;
-  
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
+    margin: 2px;  
+    font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 18px;
   }
   
-  .flex-container3 {
+  .flex-container3-startseite {
     display: flex;
     flex-direction: column;
     font-size: 30px;
@@ -199,13 +189,11 @@
     height: 30px;
     width: 55px
 
-
-     
   }
   
   /*Bild CoffeeShop */
   
-  .flex-item5 {
+  .flex-item5-startseite {
       
       max-width: 65%;
       height: 3%;
@@ -218,7 +206,7 @@
 
    /*Bild CoffeePlant */
   
-  .flex-item6 {
+  .flex-item6-startseite {
       
     max-width: 65%;
     height: 3%;
@@ -227,9 +215,8 @@
     margin-left: 5%;
     background-color: white;
  
-
  } 
-
+/*
  body {
     
   
@@ -259,7 +246,9 @@
   h2 {
     font-size: var(--h2-font-size);
   }
-  
+  */
+
+
   h1  {
     color: white;
     font-family: Roboto;
@@ -269,7 +258,7 @@
     
   }
   
-  .row {
+  .row-startseite {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -278,7 +267,7 @@
     padding-top: 10%;
     
   }
-  .column {
+  .column-startseite {
     height: 200px;
     width: 150px;
     flex-direction: column;
@@ -289,7 +278,7 @@
     background-repeat: no-repeat;
   }
   
-  .Bild1 {
+  .Bild1-startseite {
     height: 200px;
     width: 150px;
     flex-direction: column;
@@ -303,7 +292,7 @@
   
   
   
-  .Inhalt1 {
+  .Inhalt1-startseite {
     height: 200px;
     width: 150px;
     font-family: Roboto;
@@ -318,7 +307,7 @@
   
   }
   
-  .Bild2 {
+  .Bild2-startseite {
     height: 200px;
     width: 150px;
     flex-direction: column;
@@ -331,7 +320,7 @@
   }
   
   
-  .Inhalt2 {
+  .Inhalt2-startseite {
     height: 200px;
     width: 150px;
     font-family: Roboto;
@@ -349,7 +338,7 @@
   
   
   body div div {
-    border: 0px solid black;
+    border: 9px solid black;
     padding: 20px;
     box-sizing: border-box;
   }
@@ -357,7 +346,7 @@
   
   
   
-  .button1  {
+  .button1-startseite  {
     background-color: black;
     color: white;
     border: 4px solid white;
@@ -378,7 +367,7 @@
   
   }
   
-  .hero-section2 {
+  .hero-section2-startseite {
    height: 75vw;
     display: flex;
     flex-direction: column;
@@ -394,7 +383,7 @@
 
   }
 
-  .Herkunft {
+  .Herkunft-startseite {
     font-size: 44px;
     font-weight: 900;
     text-align: center;
@@ -405,7 +394,7 @@
   
   }
 
-  .text {
+  .text-startseite {
     font-size: 12px;
     font-weight: 400;
     text-align: center;
@@ -413,7 +402,7 @@
 
   }
 
-  .hero-section3 {
+  .hero-section3-startseite {
     height: 60vw;
      display: flex;
      flex-direction: column;
@@ -440,13 +429,13 @@
    }
 
 
-   .containerBild3 {
+   .containerBild3-startseite {
 display: flexbox;
 direction: row;
 
    }
   
-   .Bild3 {
+   .Bild3-startseite {
     height: 200px;
     width: 150px;
     background-image: url("../images/FEND_Coffee_Costa-Rica.png");
@@ -459,14 +448,14 @@ direction: row;
    }
 
    
-   .svg {
+   .svg-startseite {
     display: flex;
     flex-direction: column;
 
     
    } 
 
-   .containerIconText {
+   .containerIconText-startseite {
     display: flex;
     flex-direction: row;
     height: auto;

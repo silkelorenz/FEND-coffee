@@ -3,7 +3,7 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-.hero-section {
+.hero-section-herkunft {
     height: 75vh;
     width: 100%;
     display: flex;
@@ -23,7 +23,7 @@
     background-repeat: no-repeat;
     position: relative;
 }
-.icon-container {
+.icon-container-herkunft {
     width: 100%;
     position: absolute;
     top: 10px;
@@ -31,12 +31,12 @@
     padding-right: 24px;
     box-sizing: border-box;
 }
-.logo {
+.logo-herkunft {
     height: 35px;
     width: 35px;
     filter: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg) brightness(105%) contrast(108%);
 }
-.hamburger {
+.hamburger-herkunft {
     float: right;
     filter: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg) brightness(105%) contrast(108%);
     height: 25px;
@@ -95,7 +95,7 @@ p{
 
  
   
-  .flex-container-pic {
+  .flex-container-pic-herkunft {
     display: flex;
     flex-direction: column;
     font-size: 30px;
@@ -108,7 +108,7 @@ p{
   
   /*Bild Plant2*/
   
-  .flex-item3 {
+  .flex-item3-herkunft {
       
       max-width: 65%;    
       padding-bottom: 10%;  
@@ -119,7 +119,7 @@ p{
    
     /*Bild Worker*/
 
-   .flex-item4 {
+   .flex-item4-herkunft {
       
     max-width: 100%;
    
