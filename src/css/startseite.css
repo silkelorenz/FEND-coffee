@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid black;
+    
     background-image: url('/images/coffee.jpg');
     background-blend-mode: overlay;
     background-color: rgba(0, 0, 0, 0.3);
@@ -196,10 +196,10 @@
   .flex-item5-startseite {
       
       max-width: 65%;
-      height: 3%;
+      height: auto;
       padding-bottom: 10%;  
       margin-left: 30%;
-      background-color: white;
+      
    
   
    } 
@@ -263,7 +263,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: black;
+    background-color: none;
     padding-top: 10%;
     
   }
@@ -337,14 +337,7 @@
   
   
   
-  body div div {
-    border: 9px solid black;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-  
-  
-  
+    
   
   .button1-startseite  {
     background-color: black;

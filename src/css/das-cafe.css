@@ -121,13 +121,20 @@ position: static;
 
 .RöstereiundCafe-das-cafe {
   
-  margin-top: auto;
-  height:auto;
+  margin-top: 150px;
+  height: 100%;
   margin-top: 50vh;
   
   width: 100%;
   
 }
+
+.gallery {
+  margin-top: 850px;
+  
+}
+
+
 
 
 
@@ -320,6 +327,9 @@ line-height: 18px
 
 
 }
+
+
+
 
 /* Responsive layout - makes a two column-layout instead of four columns bis 991px */
 @media screen and (max-width: 991px) {

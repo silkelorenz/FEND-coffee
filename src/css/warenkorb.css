@@ -113,7 +113,7 @@ body {
   
   
   body div div {
-    border: 1px solid black;
+    border: 0px solid black;
     padding: 20px;
     box-sizing: border-box;
   }
