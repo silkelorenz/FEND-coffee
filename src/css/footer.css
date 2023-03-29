@@ -1,48 +1,26 @@
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {  
-  .container-footer {  
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-          "svg leer"
-          "Rustica leer2"
-          "Weg Oeffnungszeiten"
-          "ImpressumDatenschutz Verlinkung";
-          text-align: center;
-      }
-    }
-
-
-
-/*
-
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-*/
-
-// Large devices (desktops, 992px and up)
+/* mobil */
+.container-footer {  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "svg leer"
+    "Rustica leer2"
+    "Weg Oeffnungszeiten"
+    "ImpressumDatenschutz Verlinkung";
+    text-align: center;
+}
+/* desktop */
 @media (min-width: 992px) {
- 
-  .container-footer {  
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-          "svg leer Rustica leer2"
-          "Rustica leer2"
-          "Weg Oeffnungszeiten"
-          "ImpressumDatenschutz Verlinkung";
-          text-align: center;
-      }
-    } 
+  .container-footer {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+     "svg leer leer2 Rustica";
+  }
+}
 /*
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
@@ -91,19 +69,7 @@ text-decoration: none;
 
 
 
-    .container-footer {  
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-          "svg leer"
-          "Rustica leer2"
-          "Weg Oeffnungszeiten"
-          "ImpressumDatenschutz Verlinkung";
-          text-align: center;
-      }
+    
     
       .svg-footer { 
         
@@ -116,19 +82,7 @@ text-decoration: none;
    
    
  }
-      
-      .footer-rustica-footer { 
-        
-    grid-area: Rustica;
-    background-color: black;
-    padding-left: 8vw;
-    font-family: Roboto, sans-serif;
-    color: white;
-    margin: 0px;
-    text-align: left;
-    
- 
-}
+
       
       .Weg-footer { 
         grid-area: Weg; 
@@ -199,8 +153,3 @@ text-decoration: none;
     text-align: left;
       }
       
-     
-
-
-
-   
