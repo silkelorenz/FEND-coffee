@@ -18,7 +18,9 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
-     "svg leer leer2 Rustica";
+     "svg Weg Verlinkung ImpressumDatenschutz"
+     Rustica Oeffnungszeiten leer leer2;
+     text-align: center;
   }
 }
 /*
