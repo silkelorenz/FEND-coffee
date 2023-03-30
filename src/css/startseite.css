@@ -179,26 +179,24 @@
    font-size: 14px;
    line-height: 18px;
   }
-  
-  .flex-container3-startseite {
-    display: flex;
-    flex-direction: column;
-    font-size: 30px;
-    text-align: center;
-    flex-wrap: wrap;
-    height: 30px;
-    width: 55px
-
-  }
+ 
   
   /*Bild CoffeeShop */
   
-  .flex-item5-startseite {
+  .BildCoffeeShop-startseite {
       
-      max-width: 65%;
-      height: auto;
-      padding-bottom: 10%;  
-      margin-left: 30%;
+      
+      background-color: white;
+      padding-bottom: 0%;  
+      margin-bottom: 0%;
+      margin-left: 25%;
+      height: 30vh;
+      width: auto;
+      background-color: white;
+      display: block;
+     
+    
+     
       
    
   
@@ -210,10 +208,14 @@
       
     max-width: 65%;
     height: 3%;
-    padding-bottom: 10%;  
-    margin-right: 15%;
+    padding-bottom: 50%; 
+    padding-right: 0%; 
+    padding-left: 0%;
+    margin-right: 25%;
     margin-left: 5%;
     background-color: white;
+    display: block;
+   
  
  } 
 /*
@@ -401,6 +403,7 @@
      flex-direction: column;
      justify-content: center;
      position: relative;
+     background-color: white;
  
    }
 
