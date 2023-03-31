@@ -395,6 +395,7 @@
     text-align: center;
     color: white;
    margin-right: 35%;
+   margin-bottom: 180%;
   
 
   
@@ -494,3 +495,36 @@ direction: row;
 
 
    }
+
+
+   .flex-container3-startseite {
+    display: flex;
+    direction: row;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container3-startseite > div {
+    background-color: #f1f1f1;
+    width: 33%;
+    margin: 0px;
+    padding-top: 15vh;
+    text-align: center;
+    line-height: 25px;
+    font-size: 30px;
+  }
+
+
+  .BioQualität {
+    color: black;
+    font-size: 15px;
+  }
+  .FairGehandelt {
+    color: black;
+    font-size: 15px;
+  }
+  .BesterGeschmack {
+    color: black;
+    font-size: 15px;
+  }
+      
