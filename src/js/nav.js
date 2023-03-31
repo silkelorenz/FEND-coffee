@@ -1,7 +1,14 @@
-const button = document.querySelector('.btn');
+const navOverlay = document.querySelector('.nav-overlay');
 
-button.addEventListener('click', clickHandler);
+const openNavBtn = document.querySelector('.open-nav');
+const closeNavBtn = document.querySelector('.close-nav');
 
-function clickHandler() {
-    alert('clicked');
+openNavBtn.addEventListener('click', openNavHandler);
+function openNavHandler (){
+    navOverlay.classList.remove("hidden");
+}
+
+closeNavBtn.addEventListener('click', closeNavHandler);
+function closeNavHandler (){
+    navOverlay.classList.addplace("hidden");
 }
