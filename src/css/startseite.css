@@ -396,6 +396,7 @@
     color: white;
    margin-right: 35%;
    margin-bottom: 180%;
+   
   
 
   
@@ -416,6 +417,7 @@
      justify-content: center;
      position: relative;
      background-color: white;
+    
  
    }
 
@@ -440,18 +442,23 @@
    .containerBild3-startseite {
 display: flexbox;
 direction: row;
+background-color: white;
+padding-bottom: 1vh;
 
    }
+
+   
   
    .Bild3-startseite {
     height: 200px;
     width: 150px;
     background-image: url("../images/FEND_Coffee_Costa-Rica.png");
     background-color: white;
-    background-size: contain;
     background-repeat: no-repeat;
     margin-left: 30vw;
-    display: flex;
+    margin-bottom: 15vh;
+
+    
 
    }
 
@@ -512,6 +519,7 @@ direction: row;
     text-align: center;
     line-height: 25px;
     font-size: 30px;
+   
   }
 
 
@@ -527,4 +535,6 @@ direction: row;
     color: black;
     font-size: 15px;
   }
+
+  
       
