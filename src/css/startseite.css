@@ -113,7 +113,7 @@
   
   .flex-item1-startseite {
     
-  padding-top: 5px;
+  padding-top: 8px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
@@ -123,6 +123,7 @@
   margin-bottom: 10px;
   text-align: left;
   padding-left: 20px;
+  margin-top: 4vh;
   
   
   }
@@ -198,18 +199,7 @@
       height: 30vh;
       width: auto;
       padding-left: 30vw;
-      
 
-   
-      
-
-
-      
-    
-     
-    
-     
-      
    
   
    } 
@@ -304,8 +294,6 @@
     background-repeat: no-repeat;
   }
   
-  
-  
   .Inhalt1-startseite {
     height: 200px;
     width: 150px;
@@ -348,10 +336,6 @@
   
   }
   
-  
-  
-    
-  
   .button1-startseite  {
     background-color: black;
     color: white;
@@ -368,13 +352,10 @@
     box-sizing: border-box;
     margin-left: 30%;
  
-   
-
-  
   }
   
   .hero-section2-startseite {
-   height: 75vw;
+   height: 80vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -394,11 +375,8 @@
     font-weight: 900;
     text-align: center;
     color: white;
-   margin-right: 35%;
-   margin-bottom: 180%;
-   
-  
-
+    background-color: transparent;
+    padding-right: 20%;
   
   }
 
@@ -423,18 +401,20 @@
 
    h4  {
 
-    color:black;
-    font-family: 'Roboto';
-   height: 66px;
-      padding-top: 9%;
-   width: 100%;
-   margin: 10px;
-   text-align: center;
+
+  font-family: 'Roboto';
+  height: 66px;
+  padding-top: 0%;
+  width: 100%;
+  margin: 0px;
+  text-align: center;
   font-style: normal;
   font-weight: 900;
   font-size: 22px;
   line-height: 37.5px;
   position: static;
+  background-color: white;
+  padding-bottom: 10vh;
     
    }
 
@@ -447,7 +427,6 @@ padding-bottom: 1vh;
 
    }
 
-   
   
    .Bild3-startseite {
     height: 200px;
@@ -456,7 +435,8 @@ padding-bottom: 1vh;
     background-color: white;
     background-repeat: no-repeat;
     margin-left: 30vw;
-    margin-bottom: 15vh;
+    margin-bottom: 5vh;
+    margin-top: 10vh;
 
     
 
@@ -508,11 +488,11 @@ padding-bottom: 1vh;
     display: flex;
     direction: row;
     flex-wrap: nowrap;
-    background-color: DodgerBlue;
+    background-color: white;
   }
   
   .flex-container3-startseite > div {
-    background-color: #f1f1f1;
+    background-color: white;
     width: 33%;
     margin: 0px;
     padding-top: 15vh;
@@ -555,5 +535,5 @@ padding-bottom: 1vh;
   top: 0;
   background-color: lime;
   display: none;
-  
+
 }
